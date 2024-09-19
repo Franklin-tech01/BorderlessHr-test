@@ -4,18 +4,20 @@
 	margin: 0 auto;
 	justify-content: space-between;
 }
+
 * {
 	margin: 0;
 }
+
 .links {
 	display: flex;
 	align-items: center;
 	width: 500px;
 	justify-content: space-between;
 }
+
 .links ul {
 	display: flex;
-	/* justify-content: space-around; */
 }
 
 .links ul li {
@@ -39,7 +41,7 @@
 	background-image: url(/src/assets/background.svg);
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover; /* Adjust to ensure it covers the whole container */
+	background-size: cover;
 }
 
 .hero__section {
@@ -51,18 +53,18 @@
 }
 
 .text__content h1 {
-	/* width: 692px; */
-	/* height: 240px; */
 	width: 350px;
 	color: #252b42;
 	font-size: 3rem;
 }
+
 .text__content {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 	width: 539px;
 }
+
 .text__content p {
 	color: #737373;
 	font-size: 16px;
@@ -110,24 +112,22 @@
 }
 
 .input-field {
-	/* width: 248px; */
 	height: 50px;
 	padding: 0 8px;
 	border-radius: 8px;
-	background-color: #bdbdbd; /* Gray background */
-	border: 2px solid #737373; /* Dark gray border */
+	background-color: #bdbdbd;
+	border: 2px solid #737373;
 	outline: none;
 	font-size: 16px;
-	/* color: black; */
 	color: #252b42;
 }
 
 .input-field::placeholder {
-	color: #737373; /* Dark gray placeholder */
+	color: #737373;
 }
 
 .input-field:focus {
-	border-color: #252b42; /* Optional: add a border change on focus */
+	border-color: #252b42;
 }
 
 .form__container form {
@@ -144,6 +144,7 @@
 	font-weight: 700;
 	margin: 20px 0;
 }
+
 .button__three {
 	width: 100%;
 	padding: 20px;
