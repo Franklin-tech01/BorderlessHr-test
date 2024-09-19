@@ -1,0 +1,165 @@
+.nav__container {
+	display: flex;
+	width: 1050px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+* {
+	margin: 0;
+}
+.links {
+	display: flex;
+	align-items: center;
+	width: 500px;
+	justify-content: space-between;
+}
+.links ul {
+	display: flex;
+	/* justify-content: space-around; */
+}
+
+.links ul li {
+	cursor: pointer;
+	color: #737373;
+	list-style: none;
+	margin: 0 10px;
+}
+
+.icons {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	width: 50px;
+	justify-content: space-around;
+}
+
+.main__container {
+	width: 100%;
+	height: 100vh;
+	background-image: url(/src/assets/background.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; /* Adjust to ensure it covers the whole container */
+}
+
+.hero__section {
+	width: 1050px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px auto;
+}
+
+.text__content h1 {
+	/* width: 692px; */
+	/* height: 240px; */
+	width: 350px;
+	color: #252b42;
+	font-size: 3rem;
+}
+.text__content {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 539px;
+}
+.text__content p {
+	color: #737373;
+	font-size: 16px;
+}
+
+.button__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 349px;
+}
+
+.button__one {
+	width: 185px;
+	padding: 10px;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	color: white;
+	background-color: #00a0c1;
+	border-radius: 20px;
+}
+
+.button__two {
+	width: 155px;
+	padding: 10px;
+	font-weight: 600;
+	cursor: pointer;
+	color: white;
+	background-color: transparent;
+	border: 2px solid #00a0c1;
+	border-radius: 20px;
+}
+
+.input-container {
+	display: flex;
+	margin: 10px 0;
+	flex-direction: column;
+}
+
+.input-label {
+	margin-bottom: 8px;
+	color: #252b42;
+	font-weight: 600;
+}
+
+.input-field {
+	/* width: 248px; */
+	height: 50px;
+	padding: 0 8px;
+	border-radius: 8px;
+	background-color: #bdbdbd; /* Gray background */
+	border: 2px solid #737373; /* Dark gray border */
+	outline: none;
+	font-size: 16px;
+	/* color: black; */
+	color: #252b42;
+}
+
+.input-field::placeholder {
+	color: #737373; /* Dark gray placeholder */
+}
+
+.input-field:focus {
+	border-color: #252b42; /* Optional: add a border change on focus */
+}
+
+.form__container form {
+	background-color: rgb(255, 255, 255);
+	width: 300px;
+	height: 520px;
+	padding: 20px;
+	border-radius: 12px;
+}
+
+.form__container form h1 {
+	color: #252b42;
+	text-align: center;
+	font-weight: 700;
+	margin: 20px 0;
+}
+.button__three {
+	width: 100%;
+	padding: 20px;
+	border: none;
+	font-weight: 600;
+	margin-top: 20px;
+	cursor: pointer;
+	color: white;
+	border-radius: 8px;
+	background-color: #ffa62b;
+}
+
+.option {
+	color: #737373;
+}
+
+.hamburger {
+	margin-left: 20px;
+}
